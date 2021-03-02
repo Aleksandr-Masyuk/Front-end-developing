@@ -1,0 +1,16 @@
+#slider {
+    width: 384px;
+    height: 128px;
+    border: 2px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#polosa {
+    display: flex;
+    justify-content: space-between;
+    width: 896px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
