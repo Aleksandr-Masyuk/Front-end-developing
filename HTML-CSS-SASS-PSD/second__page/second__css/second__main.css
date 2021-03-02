@@ -1,0 +1,182 @@
+.top-panel {
+  background-color: #ffffff;
+}
+
+.top-logo {
+  padding: 0;
+}
+.top-logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.nav-text span {
+  margin-right: 2%;
+}
+.nav-text span a {
+  color: #23ad9ae7;
+  text-decoration: none;
+}
+
+.nav-text-transform {
+  opacity: 1;
+}
+.nav-text-transform:hover {
+  opacity: 0.5;
+}
+
+.toppanel-nav-form {
+  width: 300px;
+  margin: 0 auto;
+  height: 42px;
+  opacity: 1;
+}
+.toppanel-nav-form:hover {
+  opacity: 0.5;
+}
+
+.toppanel-nav-input {
+  height: 42px;
+  width: 0;
+  padding: 0 42px 0 30px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.toppanel-nav-input:focus {
+  width: 260px;
+  z-index: 1;
+  border-bottom: 2px solid #F9F0DA;
+}
+
+.toppanel-nav-btn {
+  background: #ffff;
+  border-radius: 10px;
+  height: 42px;
+  width: 48px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.toppanel-nav-btn:before {
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+.top-user {
+  height: 58px;
+  background-color: #e94e38;
+  border-radius: 15px;
+}
+.top-user:hover {
+  transform: scale(1.1);
+}
+
+.maps:hover, .filter:hover {
+  transform: scale(1.1);
+}
+
+.fons-city {
+  background-image: url(../second__img/second__fons.jpg);
+  background-size: 100%;
+}
+.fons-city p {
+  font-size: 20rem;
+  color: #ffff;
+}
+
+@media all and (max-width: 1200px) {
+  .fons-city p {
+    font-size: 16rem;
+  }
+}
+@media all and (max-width: 1100px) {
+  .fons-city p {
+    font-size: 15rem;
+  }
+}
+@media all and (max-width: 900px) {
+  .fons-city p {
+    font-size: 12rem;
+  }
+}
+@media all and (max-width: 800px) {
+  .fons-city p {
+    font-size: 12rem;
+  }
+}
+@media all and (max-width: 600px) {
+  .fons-city p {
+    font-size: 9rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .fons-city p {
+    font-size: 6rem;
+  }
+}
+@media all and (max-width: 400px) {
+  .fons-city p {
+    font-size: 5rem;
+  }
+}
+.body-nav {
+  margin: 5% 0% 1% 0%;
+}
+.body-nav span {
+  color: #e94e38;
+}
+
+.body-nav-info {
+  color: #96a6a7;
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.card {
+  border: 2px solid #68a178;
+  opacity: 1;
+}
+.card:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  background-image: url(../second__img/ff.jpg);
+  background-size: 100%;
+  color: #ffff;
+}
+.footer span p {
+  padding-top: 8%;
+}
+
+.footer-title {
+  font-size: 30px;
+  margin: 3%;
+}
+
+.footer-follow {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-social:hover {
+  transform: scale(1.1);
+}

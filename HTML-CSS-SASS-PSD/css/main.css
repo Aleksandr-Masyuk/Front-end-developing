@@ -1,0 +1,264 @@
+.top-panel {
+  background-color: #ffffff;
+}
+
+.top-logo {
+  padding: 0;
+}
+.top-logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.nav-text span {
+  margin-right: 2%;
+}
+.nav-text span a {
+  color: #23ad9ae7;
+  text-decoration: none;
+}
+
+.nav-text-transform {
+  opacity: 1;
+}
+.nav-text-transform:hover {
+  opacity: 0.5;
+}
+
+.toppanel-nav-form {
+  width: 300px;
+  margin: 0 auto;
+  height: 42px;
+  opacity: 1;
+}
+.toppanel-nav-form:hover {
+  opacity: 0.5;
+}
+
+.toppanel-nav-input {
+  height: 42px;
+  width: 0;
+  padding: 0 42px 0 30px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.toppanel-nav-input:focus {
+  width: 260px;
+  z-index: 1;
+  border-bottom: 2px solid #F9F0DA;
+}
+
+.toppanel-nav-btn {
+  background: #ffff;
+  border-radius: 10px;
+  height: 42px;
+  width: 48px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.toppanel-nav-btn:before {
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+.top-user {
+  height: 58px;
+  background-color: #e94e38;
+  border-radius: 15px;
+}
+.top-user:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  background-image: url(../img/fons.jpg);
+  background-size: 100%;
+}
+
+.header-text {
+  text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-top: 4%;
+}
+
+.dropdown-one {
+  padding-right: 4rem;
+}
+
+.header-btn-secondary {
+  height: 50px;
+  color: #ffff;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-form input {
+  border: none;
+  border-radius: 15px;
+}
+.header-form input:hover::-ms-input-placeholder {
+  color: #0000008d;
+}
+.header-form input:hover::placeholder {
+  color: #0000008d;
+}
+.header-form input::-ms-input-placeholder {
+  color: #ffff;
+}
+.header-form input::placeholder {
+  color: #ffff;
+}
+
+.name-control {
+  width: 40%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 5px;
+  margin: 5% 0% 5% 0%;
+}
+
+.header-btn-row {
+  padding: 0;
+}
+
+.header-btn {
+  width: 140px;
+  height: 40px;
+  background-color: #e94e38;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 10%;
+}
+.header-btn:hover {
+  transform: scale(1.1);
+}
+.header-btn span {
+  width: 76px;
+  height: 14px;
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.maps:hover, .filter:hover {
+  transform: scale(1.1);
+}
+
+.body-nav {
+  margin: 1% 0% 1% 0%;
+}
+.body-nav span {
+  color: #e94e38;
+}
+
+.body-nav-info {
+  color: #96a6a7;
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.dropdown span {
+  color: #e94e38;
+}
+
+.body-info span p {
+  background-image: radial-gradient(circle 300px at center, #070707 0%, #f8f8f8 30%);
+  color: #ffe604;
+}
+
+.card {
+  border: 2px solid #6e7a72;
+  opacity: 1;
+}
+.card:hover {
+  opacity: 0.5;
+}
+
+.body-info-title {
+  color: #21c72f;
+  font-size: 30px;
+}
+
+.body-info-text {
+  margin-bottom: 10%;
+}
+
+.footer {
+  background-image: url(../img/ff.jpg);
+  background-size: 100%;
+  color: #ffff;
+}
+.footer span p {
+  padding-top: 8%;
+}
+
+.footer-title {
+  font-size: 30px;
+  margin: 3%;
+}
+
+.footer-form {
+  height: 40px;
+  color: #ffff;
+  border-radius: 15px;
+  border-color: #0000;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.footer-form:hover::-ms-input-placeholder {
+  color: #0000008d;
+}
+.footer-form:hover::placeholder {
+  color: #0000008d;
+}
+.footer-form::-ms-input-placeholder {
+  color: #ffff;
+}
+.footer-form::placeholder {
+  color: #ffff;
+}
+
+.footer-btn {
+  width: 110px;
+  height: 30px;
+  background-color: #e94e38;
+  color: #ffff;
+  border: none;
+  border-radius: 25px;
+}
+.footer-btn:hover {
+  transform: scale(1.1);
+}
+
+.footer-follow {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-social:hover {
+  transform: scale(1.1);
+}
