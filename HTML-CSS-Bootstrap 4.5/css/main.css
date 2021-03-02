@@ -1,0 +1,287 @@
+.header_nav,
+.main,
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 90%;
+  /* padding: 0 24px; */
+}
+
+.header_nav {
+  padding-top: 1rem;
+}
+
+.nav_logo {
+  padding: 0;
+}
+
+.advertising {
+  margin: 2% 0 2% 0;
+  background-color: #f9c143;
+}
+
+.adv_ico {
+  margin-left: 50%;
+}
+
+.adv_info {
+  font-size: 14px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  padding: 5px 30px 5px 30px;
+}
+
+.up_announcement {
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #00ad64;
+  border: none;
+  border-radius: 5px;
+  font-size: 100%;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+/* .up_announcement span {
+  font-size: 25px;
+  padding: 0 0 0 0;
+} */
+
+.entrance {
+  width: 70px;
+  height: 40px;
+  color: #00ad64;
+  border: 1px solid #00ad64;
+  border-radius: 5px;
+  margin-left: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.kufar_sale {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #3b4144;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.con {
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.search {
+  height: 36px;
+  background: #f5f6f8;
+  font-size: 1rem;
+  color: #353535;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(172, 170, 170);
+  padding: 0;
+}
+
+.search_info {
+  background: #f5f6f8;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #353535;
+  padding-left: 7%;
+  padding-top: 1%;
+  opacity: 0.8;
+}
+
+.con,
+.search::-webkit-input-placeholder {
+  color: #b2b9ad;
+}
+
+.con,
+.search:-ms-input-placeholder {
+  color: #a3a8b1;
+}
+
+.icon {
+  position: absolute;
+  margin-top: 1%;
+  z-index: 1;
+  color: #edf0f3;
+}
+
+.main {
+}
+
+.main_top {
+  padding: 1% 0 2% 0;
+}
+
+.btn {
+  color: #181717;
+  background-color: rgb(255, 255, 255);
+}
+
+.all_filter {
+  padding: 0;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+  line-height: 20px;
+  list-style-type: none;
+}
+li a {
+  color: #3b4144;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #04eb8b;
+}
+
+.btn_country {
+  width: 100%;
+  font-weight: 400;
+  color: #212529;
+  border: 1px solid rgb(190, 190, 190);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 5px;
+  transition: color .15s;
+  text-align: left;
+}
+
+.btn_country:hover {
+  background-color: 0;
+}
+
+button span {
+  opacity: 0.6;
+}
+
+.dropdown-toggle::after {
+
+}
+
+
+.price_from input {
+  border: 1px solid black;
+}
+
+.price_to input{
+  border: 1px solid black;
+}
+
+.price_from input:focus{
+  border: 1px solid green;
+}
+
+.price_to input:active {
+  border: 1px solid green;
+}
+
+.price_from::-w
+
+.result {
+  width: 55%;
+  height: 140%;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #006de5;
+  border: none;
+  border-radius: 3px;
+}
+
+.filter_off {
+  font-size: 120%;
+  font-weight: 500;
+  color: #5c6871;
+  margin: 2%;
+}
+
+.filter_off span {
+  color: #5c6871;
+  width: 8%;
+}
+
+.search_save {
+  font-size: 120%;
+  font-weight: 500;
+  color: #009a59;
+  margin: auto;
+}
+
+.nav_nam {
+}
+
+.footer {
+  margin-bottom: 5%;
+}
+
+.footer_info_top {
+  font-size: 14px;
+}
+
+.footer_info_top_language {
+  font-size: 16px;
+  border: 1px solid #bec0c2;
+  border-radius: 3px;
+  padding: 4px 14px 4px 10px;
+}
+
+.payment_info {
+  color: #5c6871;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 12px;
+  padding-top: 24px;
+}
+
+.kufar_info {
+  color: #869098;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.app_store {
+  width: 180px;
+  height: 44px;
+}
+
+.google_play {
+  width: 180px;
+  height: 44px;
+}
+
+.app_gallery {
+  width: 180px;
+  height: 44px;
+}
+
+.kufar_download_social {
+  width: 52px;
+  height: 52px;
+  margin: 0 0 0 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.qq {
+  width: 52px;
+  height: 52px;
+  padding-right: 0px;
+  padding-left: 0px;
+}

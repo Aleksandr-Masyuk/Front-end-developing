@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="header_nav">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl nav_logo">
+            <img src="img/logo.JPG" alt="" />
+          </div>
+          <div class="col-xl nav_logo">
+            <img src="img/home.JPG" alt="" />
+          </div>
+          <div class="col-xl nav_logo">
+            <img src="img/car.JPG" alt="" />
+          </div>
+          <div class="col-xl-5 search">
+            <div class="col-xl">
+              <img src="img/ico.png" alt="" class="icon" />
+            </div>
+            <div class="col-xl con">
+              <input
+                type="search_info"
+                class="search_info"
+                placeholder="Товар, услуга"
+              />
+            </div>
+          </div>
+          <div class="col-xl-2 nav_logo">
+            <img src="img/sityfilter.JPG" alt="" />
+          </div>
+          <div class="col-xl-2">
+            <button class="up_announcement">
+              <span> &plus;</span> Подать обьявление
+            </button>
+          </div>
+          <div class="col-xl-1">
+            <button class="entrance">Вход</button>
+          </div>
+        </div>
+        <!-- <div class="categories">
+          <div class="row"> слайдер
+            <div class="col-xl"><p>категории</p></div>
+            <div class="col-xl"><p></p></div>
+            <div class="col-xl"><p></p></div>
+            <div class="col-xl"><p></p></div>
+            <div class="col-xl"><p></p></div>
+            <div class="col-xl"><p></p></div>
+            <div class="col-xl"></div>
+            <div class="col-xl"></div>
+            <div class="col-xl"></div>
+            <div class="col-xl"></div>
+            <div class="col-xl"></div>
+            <div class="col-xl"></div>
+          </div>
+      </div> -->
+        <div class="advertising">
+          <div class="row align-items-center">
+            <div class="col-xl-auto">
+              <img src="img/222.png" alt="" class="adv_ico" />
+            </div>
+            <div class="col-xl-auto">
+              <b>Не обсуждайте сделки в Вайбер, WhatsApp!</b> <br />
+              Мошенники пишут там под видом покупателей, отправляют ссылки на
+              оплату, а потом крадут дпнные карт
+            </div>
+            <div class="col-xl-auto adv_info">Как себя обезопасить</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container-fluid">
+        <div class="row main_top">
+          <div class="col-xl-9">
+            <p class="kufar_sale">Kufar - площадка объявлений в Беларуси</p>
+          </div>
+          <div class="col-xl">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                По дате
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">По дате </a>
+                <a class="dropdown-item" href="#">&uarr; По цене</a>
+                <a class="dropdown-item" href="#">&darr; По цене</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl"></div>
+        </div>
+        <div class="all_filter">
+          <div class="row">
+            <div class="col-xl-3">
+              <ul>
+                <li>
+                  <a href=""
+                    ><h6><b>Все категории</b></h6></a
+                  >
+                </li>
+                <li><a href="">Наш HandMade</a></li>
+                <li><a href="">Недвижимость</a></li>
+                <li><a href="">Авто и транспорт</a></li>
+                <li><a href="">Бытовая техника</a></li>
+                <li><a href="">Компьютерная техника</a></li>
+                <li><a href="">Телефоны и планшеты</a></li>
+                <li><a href="">Электроника</a></li>
+                <li><a href="">Женский гардероб</a></li>
+                <li><a href="">Мужской гардероб</a></li>
+                <li><a href="">Красота и здоровье</a></li>
+                <li><a href="">Всё для детей и мам</a></li>
+                <li><a href="">Всё для дома</a></li>
+                <li><a href="">Ремонт и стройка</a></li>
+                <li><a href="">Сад и огород</a></li>
+                <li><a href="">Хобби, спорт и туризм</a></li>
+                <li><a href="">Свадьба и праздники</a></li>
+                <li><a href="">Животные</a></li>
+                <li><a href="">Готовый бизнес и оборудование</a></li>
+                <li><a href="">Работа</a></li>
+                <li><a href="">Услуги</a></li>
+                <li><a href="">Прочее</a></li>
+              </ul>
+              <div class="col-xl"></div>
+              <div class="row">
+                <div class="col-xl">Вся Беларусь</div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle btn_country"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span>Область</span>
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xl">Город/Район</div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle btn_country"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span>Любой</span>
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <form action="">
+                <div class="row">
+                  <div class="col-xl">Цена</div>
+                </div>
+                <div class="row priceqq">
+                  <div class="col-xl">
+                    <div class="price_from">
+                      <input type="text" placeholder="От" />
+                    </div>
+                  </div>
+                  <div class="col-xl">
+                    <div class="price_to">
+                      <input type="text" placeholder="До" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <div class="row">
+                <div class="col-xl">
+                  <p>Состояние</p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios1">
+                      Default radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="exampleRadios2">
+                      Second default radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios3"
+                      value="option3"
+                      disabled
+                    />
+                    <label class="form-check-label" for="exampleRadios3">
+                      Disabled radio
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <p>Продавец</p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios1">
+                      Default radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="exampleRadios2">
+                      Second default radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios3"
+                      value="option3"
+                      disabled
+                    />
+                    <label class="form-check-label" for="exampleRadios3">
+                      Disabled radio
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input position-static"
+                      type="checkbox"
+                      id="blankCheckbox"
+                      value="option1"
+                      aria-label="..."
+                    />
+                    <label for="hlv" data-name="Товары с Куфар Рассрочкой"
+                      >Товары с Куфар Доставкой</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input position-static"
+                      type="checkbox"
+                      id="blankCheckbox"
+                      value="option1"
+                      aria-label="..."
+                    />
+                    <label for="hlv" data-name="Товары с Куфар Рассрочкой"
+                      >Товары с Куфар Оплатой</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input position-static"
+                      type="checkbox"
+                      id="blankCheckbox"
+                      value="option1"
+                      aria-label="..."
+                    />
+                    <label for="hlv" data-name="Товары с Куфар Рассрочкой"
+                      >Товары с Куфар Рассрочкой</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input position-static"
+                      type="checkbox"
+                      id="blankCheckbox"
+                      value="option1"
+                      aria-label="..."
+                    />
+                    <label for="hlv" data-name="Товары с Куфар Рассрочкой"
+                      >Только с фото</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input position-static"
+                      type="checkbox"
+                      id="blankCheckbox"
+                      value="option1"
+                      aria-label="..."
+                    />
+                    <label for="hlv" data-name="Товары с Куфар Рассрочкой"
+                      >Возможен обмен</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <button class="result">Показать результат</button>
+                </div>
+              </div>
+              <div class="row filter_off">
+                <span>&times</span> Сбросить фильтр
+              </div>
+              <div class="row search_save">Сохранить поиск</div>
+            </div>
+            <div class="ads">
+              <div class="vip_ads">
+                <div class="row">
+                  <div class="col-xl">
+                    <p><img src="img/img_vip.PNG" alt="" /> VIP обьявления</p>
+                  </div>
+                  <div class="col-xl">
+                    <a href="">Как сюда попасть?</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl">
+                    <img src="img/vip_ads_one.jpg" alt="" />
+                  </div>
+                  <div class="col-xl">
+                    <img src="img/vip_ads_two.jpg" alt="" />
+                  </div>
+                  <div class="col-xl">
+                    <img src="img/vip_ads_three.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <img src="img/ads_one.jpg" alt="" />
+                </div>
+                <div class="col-xl">
+                  <div class="row"><p>комплет(стулья, стол)</p></div>
+                  <div class="row"><p>все для дома</p></div>
+                  <div class="row">150 р.</div>
+                  <div class="row"><img src="" alt="" /></div>
+                  <div class="row">
+                    <div class="col-xl"><img src="" alt="" /></div>
+                    <div class="col-xl">Минск</div>
+                    <div class="col-xl">Сегодня, 18.43</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-xl-auto">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer_info">
+        <div class="container-fluid">
+          <div class="row footer_info_top">
+            <div class="col-xl-auto">
+              <img src="/img/ico_adw.PNG" alt="" /> Реклама
+            </div>
+            <div class="col-xl">Доставка</div>
+            <div class="col-xl">Рассрочка</div>
+            <div class="col-xl-2">Советы по безопасности</div>
+            <div class="col-xl">Правила</div>
+            <div class="col-xl">Помощь</div>
+            <div class="col-xl">Выбрать</div>
+            <div class="col-xl">Вакансии</div>
+            <div class="col-xl-auto footer_info_top_language">
+              <img src="img/language.PNG" alt="" /> Беларуская
+            </div>
+          </div>
+          <div class="payment_info">
+            <div class="row">
+              <div class="col-xl">
+                *Оплата производится в белорусских рублях по курсу НБ РБ.
+              </div>
+            </div>
+          </div>
+          <div class="kufar_info">
+            <div class="row">
+              <div class="col-xl">
+                <p>
+                  &copy; Kufar - крупнейшая площадка обЪявлений Беларуси по
+                  данным gemiusAudience, июнь 2020. Использование ресурса Kufar
+                  означает согласие с
+                  <a href="#">Пользовательским соглашением</a> и
+                  <a href="#">Политикой конфиденциальности</a>. ООО
+                  <<Адевинта>>. УНП 191767445, 220030, г.Минск, ул. Немига. 5,
+                  помещение 77. Режим работы: 10.00 - 18.00, Пн-Пт.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="kufar_download">
+            <div class="row">
+              <div class="col-xl">
+                <img src="img/app_store.PNG" alt="" class="app_store" />
+              </div>
+              <div class="col-xl">
+                <img src="img/google_play.PNG" alt="" class="google_play" />
+              </div>
+              <div class="col-xl">
+                <img src="img/app_gallery.PNG" alt="" class="app_gallery" />
+              </div>
+              <div class="col-xl qq">
+                <img src="img/fc.png" alt="" class="kufar_download_social" />
+              </div>
+              <div class="col-xl qq">
+                <img src="img/in.png" alt="" class="kufar_download_social" />
+              </div>
+              <div class="col-xl qq">
+                <img src="img/inst.png" alt="" class="kufar_download_social" />
+              </div>
+              <div class="col-xl qq">
+                <img src="img/tw.png" alt="" class="kufar_download_social" />
+              </div>
+              <div class="col-xl qq">
+                <img src="img/ws.png" alt="" class="kufar_download_social" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
