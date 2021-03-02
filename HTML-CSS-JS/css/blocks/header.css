@@ -1,0 +1,166 @@
+@media (min-width: 500px) { .header_wrapper {
+    flex-basis: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 0.9px;
+}
+
+.header_title {
+font-family: "Playfair Display";
+font-size: 70px;
+letter-spacing: 0.9px;
+text-align: center;
+order: 1;
+}
+
+.header_description {
+font-family: "Quicksand";
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.06px;
+text-align: center;
+order: 1;
+}
+
+.info1 {
+    margin-top: 3%;
+    order: 1;
+}
+
+
+.header_info1 {
+    text-align: left;
+    order: 2;
+}
+
+
+.text1 {
+    order: 3;
+}
+
+
+.info2 {
+    margin-top: 3%;
+    order: 1;
+}
+
+
+.header_info2 {
+    text-align: left;
+    order: 2;
+}
+
+
+.text2 {
+    order: 3;
+}
+
+.img2 {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    width: 500px;
+    order: 4;
+}
+
+.img2:hover {
+    transform: scale(1.4);
+}
+
+.info3 {
+    margin-top: 3%;
+    order: 1;
+}
+
+
+.header_info3 {
+    text-align: left;
+    order: 2;
+}
+
+
+.text3 {
+    order: 3;
+}
+
+.img3 {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    width: 500px;
+    order: 4;
+}
+
+.img3:hover {
+    transform: scale(1.4);
+}
+
+.info4 {
+    margin-top: 3%;
+    order: 1;
+}
+
+
+.header_info4 {
+    text-align: left;
+    order: 2;
+}
+
+
+.text4 {
+    order: 3;
+}
+
+.img4 {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    width: 500px;
+    order: 4;
+}
+
+.img4:hover {
+    transform: scale(1.4);
+}
+
+.info5 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    order: 1;
+}
+
+
+.header_info5 {
+    text-align: left;
+    order: 2;
+}
+
+
+.text5 {
+    order: 3;
+}
+
+.img5 {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    width: 500px;
+    order: 4;
+}
+
+.img5:hover {
+    transform: scale(1.4);
+}
+
+form {
+    margin-top: 2%;
+}
+
+
+.yuo:hover {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}

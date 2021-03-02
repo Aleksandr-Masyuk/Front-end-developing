@@ -1,0 +1,154 @@
+@media (min-width: 500px) {  #slider{
+    width: 500px;
+    height: 256px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+#polosa{
+    width: 1792px;
+    height: 300px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    display: flex;
+}
+
+#polosa img{
+    float: left;
+}
+
+#polosa::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#slider:hover {
+    transform: scale(1.2);
+}
+
+#slider2{
+    width: 500px;
+    height: 256px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+#polosa2{
+    width: 1792px;
+    height: 300px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    display: flex;
+}
+
+#polosa2 img{
+    float: left;
+}
+
+#polosa2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#slider2:hover {
+    transform: scale(1.2);
+}
+
+#slider3{
+    width: 500px;
+    height: 256px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+#polosa3{
+    width: 1792px;
+    height: 300px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    display: flex;
+}
+
+#polosa3 img{
+    float: left;
+}
+
+#polosa3::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#slider3:hover {
+    transform: scale(1.2);
+}
+
+#slider4{
+    width: 500px;
+    height: 256px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+#polosa4{
+    width: 1792px;
+    height: 300px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    display: flex;
+}
+
+#polosa4 img{
+    float: left;
+}
+
+#polosa4::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#slider4:hover {
+    transform: scale(1.2);
+}
+
+#slider5{
+    width: 500px;
+    height: 256px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+#polosa5{
+    width: 1792px;
+    height: 300px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    display: flex;
+}
+
+#polosa5 img{
+    float: left;
+}
+
+#polosa5::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#slider5:hover {
+    transform: scale(1.2);
+}

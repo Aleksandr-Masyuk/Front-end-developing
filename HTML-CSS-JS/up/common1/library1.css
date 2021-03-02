@@ -1,0 +1,43 @@
+@media (min-width: 500px) { .header {
+    flex-basis: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    letter-spacing: 0.9px;
+    text-indent: 20px;
+}
+
+.info1 {
+    margin-top: 1%;
+}
+
+
+.header_info1 {
+
+}
+
+
+.text1 {
+
+}
+
+.img1 {
+   float: right;
+   padding: 0.5% 1% 1% 1%;
+}
+
+.img1:hover {
+    transform: scale(1.4);
+}
+
+.img1_2 {
+   padding: 0% 0% 1% 1%;
+    display: inline-flex;
+}
+
+.img1_2:hover {
+    transform: scale(1.2);
+}

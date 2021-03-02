@@ -1,0 +1,29 @@
+/*@media (min-width: 500px) {  #slider2{
+    width: 500px;
+    height: 256px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+#polosa2{
+    width: 1792px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    display: flex;
+}
+
+#polosa2 img{
+    float: left;
+}
+
+#polosa2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#slider2:hover {
+    transform: scale(1.2);
+}
