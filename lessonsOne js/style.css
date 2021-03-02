@@ -1,0 +1,38 @@
+/*#slider{
+    width: 786px;
+    height: 256px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#polosa{
+    width: 1792px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+#polosa img{
+    float: left;
+}
+
+#polosa::after{
+    content: "";
+    display: block;
+    clear: both;
+}*/
+
+
+#test{
+    width: 150px;
+    height: 150px;
+    background: orange;
+    margin: 30px;
+}
+
+#out{
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
