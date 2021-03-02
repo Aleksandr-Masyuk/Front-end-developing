@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.header {
+  width: 100%;
+  height: 900px;
+  background-color: #eaf0f7;
+  background-image: radial-gradient(
+    circle 700px at center,
+    #e4e9f1 0%,
+    #98bcf1 100%
+  );
+}
+
+.container {
+  width: 1170px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 830px;
+  margin-bottom: 13%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.logan {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 90px;
+  color: #000000;
+}
+
+.logan span {
+  font-weight: 400;
+  color: rgb(199, 27, 27);
+}
+
+.nav_item {
+  margin-right: 30px;
+}
+
+.nav_link {
+  color: rgb(248, 240, 240);
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  color: rgb(15, 15, 15);
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header_desc {
+  width: 500px;
+  border-right: ridge;
+}
+
+.header_title {
+  color: black;
+  font-family: "Montserrae";
+  font-size: 21px;
+  font-weight: 30px;
+  line-height: 32px;
+}
+
+.header_text {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.header_photo {
+  width: 570px;
+}
+
+.header_btn {
+  display: inline-block;
+  width: 125px;
+  height: 22px;
+  border-radius: 7px;
+  background-color: #f1cb2f;
+  background-image: linear-gradient(top, #ffcc00 0%, #e4be26 100%);
+  color: rgb(23, 24, 24);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.header_btn:hover {
+  transform: scale(1.7, 1.5);
+}
+
+.header_social {
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+
+.header_social_item {
+  font-size: 25px;
+  color: #4c4e4f;
+  text-decoration: none;
+  margin-right: 27px;
+  display: inline-block;
+}
+
+.header_social_item:last-child {
+  margin-right: 0;
+}
+
+.header_social_item:hover {
+  opacity: 0.6;
+}
+
+.footer {
+  width: 100%;
+  height: 115px;
+  color: rgb(243, 244, 245);
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer::before {
+  content: "";
+  display: table;
+}
