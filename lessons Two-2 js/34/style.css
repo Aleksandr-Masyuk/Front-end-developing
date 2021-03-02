@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    left: -230px;
+    top: 0;
+    transition: all ease 1s;
+    color: white;
+}
