@@ -1,0 +1,117 @@
+.game {
+  display: block;
+}
+
+.info {
+  width: 15rem;
+  height: 16rem;
+  float: left;
+}
+
+.target, .score, .time {
+  width: 15rem;
+  height: 2rem;
+  border: 1px solid red;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+
+.field {
+  display: flex;
+  width: 60rem;
+  height: 30rem;
+  float: right;
+  border: 5px solid black;
+  border-radius: 10px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.enter {
+  width: 20rem;
+  height: 10rem;
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  opacity: 0.8;
+}
+.enter:hover {
+  transform: scale(1.2);
+}
+
+.user {
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  background: black;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.vall_one {
+  width: 2rem;
+  height: 20rem;
+  background: blue;
+  margin-left: 10rem;
+  margin-top: 0px;
+}
+
+.vall_one_down {
+  width: 2rem;
+  height: 20rem;
+  background: green;
+  margin-left: 10rem;
+  margin-top: 160px;
+}
+
+.vall_two {
+  width: 2rem;
+  height: 10rem;
+  background: red;
+  margin-left: 10rem;
+  margin-top: 320px;
+}
+
+.vall_three {
+  width: 2rem;
+  height: 10rem;
+  background: red;
+  margin-left: 10rem;
+}
+
+.vall_four {
+  width: 2rem;
+  height: 20rem;
+  background: blue;
+  margin-left: 10rem;
+  margin-top: 160px;
+}
+
+.vall_four_up {
+  width: 2rem;
+  height: 20rem;
+  background: green;
+  margin-left: 10rem;
+  margin-top: 0px;
+}
+
+.finish {
+  width: 4rem;
+  height: 4rem;
+  background: green;
+  border: 3px solid red;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.finish_time {
+  width: 1rem;
+  height: 1rem;
+}
+
+.red {
+  border: 2px dotted red;
+}
