@@ -1,0 +1,564 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-title {
+    text-align: center;
+    padding-right: 0%;
+    margin-top: 2%;
+    font-family: "Teko";
+    font-size: 22px;
+  }
+  .header-promo {
+    height: auto;
+  }
+
+  .header-container-img1 {
+    order: 1;
+    margin-right: 0;
+    float: right;
+    width: 290px;
+  }
+  .header-container-img2 {
+    float: left;
+  }
+
+  .footer-social {
+    width: 100%;
+    height: 80%;
+    padding-left: 1%;
+  }
+
+  .footer-social-images {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: "Teko";
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+  }
+
+  .header-nav-link {
+    position: relative;
+    color: rgb(39, 40, 46);
+    text-decoration: none;
+    margin-right: 12px;
+  }
+
+  .header-nav-link::after {
+    position: absolute;
+    right: -9px;
+    top: 7px;
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #004cff;
+    pointer-events: none;
+    transform: rotate(45deg);
+  }
+
+  .container-img-sale {
+    width: 50px;
+    margin: 2% 0% 7% 0%;
+    border: 1px solid rgb(201, 197, 197);
+  }
+
+  .container-img-sale {
+    width: 90px;
+    margin: 2% 0% 7% 0%;
+    border: 1px solid rgb(201, 197, 197);
+  }
+
+
+  .header-title {
+    text-align: center;
+    padding-right: 4%;
+    margin-top: 1%;
+    font-family: "Teko";
+    font-size: 19px;
+  }
+
+  .header-container-img1 {
+    order: 1;
+    margin-right: 0;
+    float: right;
+    width: 290px;
+  }
+  .header-container-img2 {
+    float: left;
+    width: 220px;
+  }
+
+  .header-promo {
+    height: auto;
+  }
+
+  .promo-btn {
+    font-size: 14px;
+  }
+
+  .footer-social {
+    width: 100%;
+    height: 80%;
+    padding-left: 1%;
+  }
+
+  .footer-social-images {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-promo {
+    height: auto;
+  }
+
+  .header-title {
+    text-align: center;
+    padding-right: 0%;
+    margin-top: 2%;
+    font-family: "Teko";
+    font-size: 17px;
+  }
+
+  .footer-social {
+    width: 100%;
+    height: 80%;
+    padding-left: 1%;
+  }
+
+  .footer-social-images {
+    width: 600px;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .search {
+    width: 100px;
+    height: 30px;
+    border-radius: 3%;
+  }
+
+  .container-right-img {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container-img-sale {
+    width: 70px;
+    margin: 2% 0% 7% 0%;
+    border: 1px solid rgb(201, 197, 197);
+  }
+
+  .header-container-img1 {
+    order: 1;
+    margin-right: 0;
+    float: right;
+    width: 110px;
+    height: 160px;
+  }
+  .header-container-img2 {
+    float: left;
+    width: 100px;
+    height: 150px;
+  }
+  .header-title {
+    text-align: center;
+    padding-right: 0%;
+    margin-top: -2%;
+    font-family: "Teko";
+    font-size: 16px;
+  }
+
+  .header-promo {
+    height: auto;
+  }
+
+  .promo-btn {
+    font-size: 10px;
+  }
+
+  .top-panel_notofication {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 35px;
+  }
+
+  .footer-social {
+    width: 100%;
+    height: 80%;
+    padding-left: 1%;
+  }
+
+  .footer-social-images {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%px;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .top-panel_notofication {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 35px;
+  }
+
+  .search {
+    width: 100px;
+    height: 30px;
+    border-radius: 3%;
+  }
+
+  .container-right-img {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container-img-sale {
+    width: 70px;
+    margin: 2% 0% 7% 0%;
+    border: 1px solid rgb(201, 197, 197);
+  }
+
+  .footer-social {
+    width: 100%;
+    height: 80%;
+    padding-left: 1%;
+  }
+
+  .footer-social-images {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-promo {
+    height: 170px;
+  }
+
+  .top-panel-link {
+    width: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .header-naw-row {
+    width: 100%;
+    height: 50px;
+    padding-left: 0;
+  }
+
+  .row-top-panel {
+    height: 120px;
+    background-color: #272424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top-panel_notofication {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+
+  .search {
+    width: 100px;
+    height: 30px;
+    border-radius: 3%;
+  }
+
+  .container-right-img {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container-img-sale {
+    width: 70px;
+    margin: 2% 0% 7% 0%;
+    border: 1px solid rgb(201, 197, 197);
+  }
+
+  .header-title {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: -4%;
+    font-family: "Teko";
+    font-size: 14px;
+  }
+
+  .footer-social {
+    width: 100%;
+    height: 80%;
+    padding-left: 1%;
+  }
+
+  .footer-social-images {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+      width: 100%;
+    }
+
+  .header {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+  .header-promo {
+      height: auto;
+    }
+
+  .header-title {
+      text-align: auto;
+      padding-right: 0%;
+      margin-top: -2%;
+      font-family: "Teko";
+      font-size: 19px;
+    }
+
+  .header-container-img1 {
+      order: 1;
+      margin-right: 0;
+      width: 90px;
+      height: 100px;
+    }
+  .header-container-img2 {
+      width: 60px;
+      height: 90px;
+    }
+
+  .search {
+      width: 100px;
+      height: 30px;
+      border-radius: 3%;
+    }
+
+  .container-right-img {
+      display: flex;
+      justify-content: space-between;
+    }
+
+  .container-img-sale {
+      width: 50px;
+      margin: 2% 0% 7% 0%;
+      border: 1px solid rgb(201, 197, 197);
+    }
+
+  .top-panel-link {
+      width: 25px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+
+  .header-naw-row {
+      width: 100%;
+      height: 40px;
+      padding-left: 0;
+    }
+
+  .row-top-panel1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+  .top-panel_notofication {
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 3px;
+    }
+
+    .footer {
+      width: 100%;
+      height: 200px;
+      background-image: url("/img/footer.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .footer-social {
+      width: 100%;
+      height: 80%;
+      padding-left: 1%;
+    }
+
+    .footer-social-images {
+      width: 300px;
+    }
+
+  }
+
+
+@media screen and (max-width: 400px) {
+  .container {
+      width: 100%;
+    }
+
+  .header {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+  .header-promo {
+      height: auto;
+    }
+
+  .header-title {
+      text-align: auto;
+      padding-right: 0%;
+      margin-top: -2%;
+      font-family: "Teko";
+      font-size: 19px;
+    }
+
+  .header-container-img1 {
+      order: 1;
+      margin-right: 0;
+      width: 90px;
+      height: 100px;
+    }
+  .header-container-img2 {
+      width: 60px;
+      height: 90px;
+    }
+
+  .search {
+      width: 100px;
+      height: 30px;
+      border-radius: 3%;
+    }
+
+  .container-right-img {
+      display: flex;
+      justify-content: space-between;
+    }
+
+  .container-img-sale {
+      width: 50px;
+      margin: 2% 0% 7% 0%;
+      border: 1px solid rgb(201, 197, 197);
+    }
+
+  .top-panel-link {
+      width: 25px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+
+  .header-naw-row {
+      width: 100%;
+      height: 40px;
+      padding-left: 0;
+    }
+
+  .row-top-panel1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+  .top-panel_notofication {
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 3px;
+    }
+
+    .footer {
+      width: 100%;
+      height: 200px;
+      background-image: url("/img/footer.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .footer-social {
+      width: 100%;
+      height: 80%;
+      padding-left: 1%;
+    }
+
+    .footer-social-images {
+      width: 300px;
+    }
+
+  }
